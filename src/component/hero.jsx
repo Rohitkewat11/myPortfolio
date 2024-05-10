@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 export function Hero() {
   return (
     <>
-      <div className="w-96 m-auto  md:w-full md:flex md:items-center md:justify-around font-mono h-screen p-1">
+      <div className="grid justify-center items-center -mt-10 md:w-full md:flex md:items-center md:justify-around font-mono h-[100vh]">
         <div>
           <div>
             <p className="text-white font-bold text-4xl md:text-5xl">
@@ -31,11 +31,11 @@ export function Hero() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="-mt-28 md:mt-0">
           <img
             src="./img.avif"
             alt="pic"
-            className="h-72 w-72 md:h-96 md:w-96 rounded-full border border-white mt-5"
+            className="h-72 w-72 md:h-96 md:w-96 rounded-full border border-white"
           />
         </div>
       </div>
