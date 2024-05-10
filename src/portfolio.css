@@ -549,12 +549,45 @@ video {
   position: absolute;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
 }
 
 .-mt-28 {
@@ -587,14 +620,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
 }
 
 .block {
@@ -681,6 +706,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -751,6 +780,18 @@ video {
 .bg-cyan-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+}
+
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-\[\#051637\]\/50 {
+  background-color: rgb(5 22 55 / 0.5);
+}
+
+.bg-\[\#051637\]\/80 {
+  background-color: rgb(5 22 55 / 0.8);
 }
 
 .p-10 {
@@ -862,12 +903,32 @@ video {
   transition-duration: 150ms;
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-75 {
+  transition-duration: 75ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .ease-in {
@@ -911,7 +972,17 @@ video {
   transform: rotateY(180deg);
 }
 
+@media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -950,6 +1021,14 @@ video {
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:text-3xl {

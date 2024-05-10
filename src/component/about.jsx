@@ -10,11 +10,8 @@ export function About() {
             About
           </p>
           <blockquote className="text-xl text-justify mt-3">
-            I am Proficient in developing Responsive & Interactive websites |
-            Good knowledge of CSS3, HTML5, Bootstrap, JavaScript and JQuery(Ajax and Dynamic UI)
-            and also knowledge of
-            <span id="skill-1"> Node JS, Express JS and MongoDB</span> in
-            BackEnd.
+          Aspirant Web Developer skilled in creating Responsive & Interactive websites | Proficient in CSS3, HTML5, Bootstrap, JavaScript, and JQuery
+           (Ajax and Dynamic UI),TailwindCSS, ReactJS, Redux | Knowledgeable in Node JS, Express JS, and MongoDB for BackEnd Development.
           </blockquote>
         </div>
 
